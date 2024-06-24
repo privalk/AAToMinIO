@@ -1,7 +1,7 @@
 {
     "name": "dropletonverse.infra.assetsync",
     "displayName": "Dropletonverse Infra AssetSync",
-    "version": "1.1.0",
+    "version": "1.3.5",
     "unity": "2022.3",
     "description": "构建AA并上传到minIO",
     "keywords": [
@@ -16,8 +16,12 @@
       "url": "http://gitlab.dropletonverse.com/UPM/dropletonverse.infra.assetsync.git"
     },
     "repositoryName": "DropletonverseUPM",
+    "dependencies": {
+      "com.unity.addressables": "1.21.20"
+    },
+  
     "author": {
-      "name": "ppiiko",
+      "name": "Dropletonverse",
       "email": "291863911@qq.com"
     }
   }
